@@ -1,7 +1,5 @@
 ---
 spring:
-  application:
-    name: configinstance
   profiles: cloud
   cloud:
     config:
