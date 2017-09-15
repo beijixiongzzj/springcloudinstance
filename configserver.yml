@@ -1,0 +1,10 @@
+---
+spring:
+  profiles: cloud
+  cloud:
+    config:
+      uri: http://127.0.0.1:8999
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8777/eureka/
